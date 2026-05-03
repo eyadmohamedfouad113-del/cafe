@@ -1,0 +1,96 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    background: #f9f1e7;
+    color: #3c2f2f;
+    line-height: 1.6;
+}
+
+.hero {
+    height: 280px;
+    background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), 
+                url('https://picsum.photos/id/1015/2000/1200') center/cover;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 3.8rem;
+    font-weight: 700;
+}
+
+.tagline { font-size: 1.35rem; margin-top: 10px; opacity: 0.95; }
+
+.lang-toggle {
+    position: sticky;
+    top: 0;
+    background: white;
+    padding: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    z-index: 100;
+    text-align: center;
+}
+
+.lang-button {
+    padding: 12px 28px;
+    background: #6b3d1e;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.container { max-width: 1200px; margin: 30px auto; padding: 0 15px; }
+
+h2 {
+    text-align: center;
+    font-size: 2.3rem;
+    margin: 40px 0 25px;
+    color: #3c2f2f;
+    border-bottom: 3px solid #8d5524;
+    padding-bottom: 10px;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 18px;
+}
+
+.menu-item {
+    background: white;
+    padding: 22px;
+    border-radius: 18px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.menu-item:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.12);
+}
+
+.desc { color: #6b5e5e; margin-top: 5px; }
+
+.price {
+    font-size: 1.45rem;
+    font-weight: bold;
+    color: #6b3d1e;
+    white-space: nowrap;
+}
+
+footer {
+    background: #3c2f2f;
+    color: #e8d9c0;
+    text-align: center;
+    padding: 35px 20px;
+    margin-top: 50px;
+}

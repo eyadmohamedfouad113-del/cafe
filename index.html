@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>كافيه بروفيشنال • Menu</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1 id="hero-title">كافيه بروفيشنال</h1>
+            <p id="hero-tagline" class="tagline">قهوة فاخرة • مشروبات • سناكس</p>
+            <div class="info">
+                <span><i class="fa-solid fa-location-dot"></i> <span id="location">وسط البلد • القاهرة</span></span>
+                <span><i class="fa-solid fa-clock"></i> <span id="hours">٧:٠٠ ص - ١١:٠٠ م</span></span>
+            </div>
+        </div>
+    </header>
+
+    <div class="lang-toggle">
+        <button onclick="toggleLanguage()" id="langBtn" class="lang-button">
+            🇬🇧 English
+        </button>
+    </div>
+
+    <div class="container">
+        <section id="hot">
+            <h2 id="hot-title">القهوة الساخنة</h2>
+            <div class="menu-grid" id="hot-grid"></div>
+        </section>
+
+        <section id="cold">
+            <h2 id="cold-title">المشروبات الباردة</h2>
+            <div class="menu-grid" id="cold-grid"></div>
+        </section>
+
+        <section id="snacks">
+            <h2 id="snacks-title">السناكس والوجبات الخفيفة</h2>
+            <div class="menu-grid" id="snacks-grid"></div>
+        </section>
+    </div>
+<link rel="stylesheet" href="style.css">
+    <footer>
+        <p class="text-lg" id="footer-name">كافيه بروفيشنال</p>
+        <p id="footer-location">وسط البلد - القاهرة</p>
+        <p class="mt-4 text-sm">© ٢٠٢٦ • All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
